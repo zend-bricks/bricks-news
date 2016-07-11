@@ -1,0 +1,32 @@
+{
+    "name": "zend-bricks/bricks-news",
+    "description": "simple news system",
+    "keywords": [
+        "php",
+        "zend",
+        "bricks",
+        "news"
+    ],
+    "license": "LGPL-3.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.6.0",
+        "ext-intl": "*",
+        "zendframework/zend-mvc": "*",
+        "zendframework/zend-cache": "*",
+        "zendframework/zend-serializer": "*",
+        "zendframework/zend-form": "*",
+        "zendframework/zend-mvc-console": "*",
+        "zendframework/zend-mvc-i18n": "*",
+        "zendframework/zend-mvc-plugins": "*",
+        "zendframework/zend-servicemanager": "*",
+        "zendframework/zend-i18n": "*",
+        "zend-bricks/bricks-common": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZendBricks\\BricksNews\\": "src/"
+        }
+    }
+}
